@@ -3239,6 +3239,13 @@
   dependencies:
     "@sentry-internal/rrweb-snapshot" "2.26.0"
 
+"@sentry-internal/rrdom@2.31.0":
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrdom/-/rrdom-2.31.0.tgz#548773964167ec104d3cbb9d7a4b25103c091e06"
+  integrity sha512-6sCgyKZy0Jpkb0wQ2XYLNcJjCETfbjHJ5jroAm2mU1imoSBlAldtNTdMc0wk8MaX/0q5qkMlr78SiYFf7xo12Q==
+  dependencies:
+    "@sentry-internal/rrweb-snapshot" "2.31.0"
+
 "@sentry-internal/rrweb-player@2.26.0":
   version "2.26.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-player/-/rrweb-player-2.26.0.tgz#c901a2ec81ef4d8e79118fadc463950c46eed6fd"
@@ -3252,12 +3259,25 @@
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.26.0.tgz#cb70bf2c006bf59824806f567ae6ca23ba2aac3a"
   integrity sha512-wWa+OxAHhoozIlt3kjhmfrsn/+POnJgktOe5WT95fakfyv56mGKXqh4mXx7HRzGEwq4bbkhtcPhfh2gbueSPcA==
 
+"@sentry-internal/rrweb-snapshot@2.31.0":
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.31.0.tgz#7a86d02429a490f6367d7aead0548fad7e0c9487"
+  integrity sha512-uGyJPfmOaiSZOZyd5HFiI8aCd/pPOtrZB89BJBgdB63++wD9Fry8OoWvRORzTo+N+Squummkq3Iucjm/yGdbAw==
+
 "@sentry-internal/rrweb-types@2.26.0":
   version "2.26.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.26.0.tgz#0ba52a4e6f24238556134280b7cf77633bc68e21"
   integrity sha512-og4X+OidRRc3bMuwfeio4UF8EcVFjtz/z0DDjpyV+0sH4LDoVoH1+Jlxbxl4WR83LALWMcsxV0UWYeXA5kfrOw==
   dependencies:
     "@sentry-internal/rrweb-snapshot" "2.26.0"
+    "@types/css-font-loading-module" "0.0.7"
+
+"@sentry-internal/rrweb-types@2.31.0":
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.31.0.tgz#daf766526efff760eb6020ddf22c6432db9ff6a6"
+  integrity sha512-rWNCU6KaYopmd+353KBbRuNftpqfI97GdNFeCmB1wwwV/S2CW/lVcEn1uzMwzs8blm3YL2i/O+ykONxecQj+BQ==
+  dependencies:
+    "@sentry-internal/rrweb-snapshot" "2.31.0"
     "@types/css-font-loading-module" "0.0.7"
 
 "@sentry-internal/rrweb@2.26.0":
@@ -3268,6 +3288,20 @@
     "@sentry-internal/rrdom" "2.26.0"
     "@sentry-internal/rrweb-snapshot" "2.26.0"
     "@sentry-internal/rrweb-types" "2.26.0"
+    "@types/css-font-loading-module" "0.0.7"
+    "@xstate/fsm" "^1.4.0"
+    base64-arraybuffer "^1.0.1"
+    fflate "^0.4.4"
+    mitt "^3.0.0"
+
+"@sentry-internal/rrweb@2.31.0":
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.31.0.tgz#69c6f6a4304c4d7446c3a1cc1c9b044d5dc4f040"
+  integrity sha512-u1uobvl5qnjtdhL2lrzbpwROZagc5xT1P2lANXxrKpLOUpp2+jMSjq0Zt2TElj+2aHlqh4lkDsj/OIa/FBHnnQ==
+  dependencies:
+    "@sentry-internal/rrdom" "2.31.0"
+    "@sentry-internal/rrweb-snapshot" "2.31.0"
+    "@sentry-internal/rrweb-types" "2.31.0"
     "@types/css-font-loading-module" "0.0.7"
     "@xstate/fsm" "^1.4.0"
     base64-arraybuffer "^1.0.1"
